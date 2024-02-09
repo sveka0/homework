@@ -1,0 +1,34 @@
+h1, h2, h3 {
+    color: gray;
+  }
+  
+  #main {
+    color: #e60202;
+  }
+  
+  .h2 {
+    color: red;
+  }
+  
+  .heading {
+    color: green;
+  }
+section p {
+    color: red;
+}
+#h2 {
+    color: indigo;
+}
+p.first{
+  color: green;
+}
+.first a
+{
+  color: green;
+}
+div + p {
+  color: salmon;
+}
+.translucent-box {
+  background: hsla(0, 100%, 50%, alpha);
+}
