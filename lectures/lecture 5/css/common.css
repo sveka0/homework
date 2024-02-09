@@ -1,0 +1,18 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css')
+html {
+
+    --primary-text-color:  #000;
+    --primary-bg-color:  #fff;
+}
+footer {
+    --footer-text-color: #fff;
+    --fuuter-bg-color: #000;
+}
+:root {
+    --primary-font-family: 'Roboto', sans-serif;
+    --primary-font-size: 0.875rem;
+  }
+  body {
+    font-family: var(--primary-font-family);
+    font-size: var(--primary-font-size);
+  }
