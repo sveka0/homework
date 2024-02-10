@@ -1,5 +1,21 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
+
 @import "styles.css";
+
+:root {
+  --primary-text-color: #000;
+  --primary-bg-color: #fff;
+}
+footer {
+  --footer-text-color: #fff;
+  --footer-bg-color: #000;
+}
+body {
+  color: var(--primary-text-color);
+  background: var(--primary-bg-color);
+}
+ul
+{
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
