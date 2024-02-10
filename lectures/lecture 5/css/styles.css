@@ -1,3 +1,8 @@
+*{
+ margin: 5px;
+ padding: 0px;   
+}
+
 div{
     font-size: 1em;
 }
@@ -25,7 +30,27 @@ h2{
 h3{
     font-weight: 700;
 }
-.list-unstyled{
-    list-style: none;
+.footer-social{
+    display: flex;
+    min-height: 100%;
+    align-content: center;
+
 }
-.footer-social
+.list-unstyled{
+    font-size: 30px;
+    transition: all 0.3s ease 0s;
+    text-shadow: 0 2px 2 px;
+    list-style-type: none;
+}
+.list-unstyled::before{
+    margin: 0px 10px 0px 0px;
+}
+.list-unstyled:hover{
+    color: #fff;
+}
+.fa-icon{
+    text-decoration: none;
+}
+
+
+
