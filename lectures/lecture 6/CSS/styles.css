@@ -1,0 +1,58 @@
+* {
+    margin: 5px;
+    padding: 0;
+  }
+a:link{
+    color: indigo;
+}
+a:visited{
+    color: gold;
+}
+a:hover{
+    color: salmon;
+}
+a:active{
+    color: red;
+}
+a:focus{
+    color: orange;
+}
+input[type="number"] {
+    background-color: rgba(158, 41, 41, 0.25);
+}
+
+input[type="number"]:valid {
+    background-color: rgba(0, 128, 0, 0.25);
+}
+
+input[type="number"]:invalid {
+    background-color: rgba(158, 41, 41, 0.25);
+}
+li:first-child{
+    color: orange;
+}
+ul:first-of-type{
+    color: orange;
+}
+ul:last-of-type{
+    color: orange;
+}
+li:not(.first-item) {
+    color: orange;
+}
+li:not(.first-item):not(.last-of-type){
+    background: yellow;
+    color: black;
+}
+ol:nth-child(2){
+    color: orange;
+}
+ol:nth-child(2n){
+    color: orange ;
+}
+ol:nth-child(even){
+    color: orange;
+}
+ol:nth-child(2n+6){
+    color: orange;
+}
