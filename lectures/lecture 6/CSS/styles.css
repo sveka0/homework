@@ -1,5 +1,5 @@
 * {
-    margin: 5px;
+    margin: 10px;
     padding: 0;
   }
 a:link{
@@ -17,7 +17,7 @@ a:active{
 a:focus{
     color: orange;
 }
-input[type="number"] {
+input[type="number"] { 
     background-color: rgba(158, 41, 41, 0.25);
 }
 
@@ -27,32 +27,78 @@ input[type="number"]:valid {
 
 input[type="number"]:invalid {
     background-color: rgba(158, 41, 41, 0.25);
-}
-li:first-child{
+ } 
+
+li:first-child {
     color: orange;
-}
-ul:first-of-type{
+  }
+  
+li:first-child span {
     color: orange;
-}
-ul:last-of-type{
+  }
+  
+li:last-child {
     color: orange;
-}
-li:not(.first-item) {
+  }
+  
+li:last-child span:last-child {
     color: orange;
-}
-li:not(.first-item):not(.last-of-type){
-    background: yellow;
+  }
+  
+ul li {
     color: black;
-}
-ol:nth-child(2){
+    background-color: yellow;
+  }
+  
+li.first-item {
     color: orange;
-}
-ol:nth-child(2n){
+    background-color: yellow;
+  }
+  
+ul li:last-child {
+    color: black;
+    background-color: yellow;
+  }
+ol li:nth-child(2){
+    color: orange;
+ }
+ ol li:nth-child(2n){
     color: orange ;
-}
-ol:nth-child(even){
+ }
+ ol li:nth-child(even){
     color: orange;
-}
-ol:nth-child(2n+6){
+ }
+ ol li:nth-child(2n+6){
     color: orange;
-}
+ }
+   .ua::before { 
+    content: "Слава ";
+  }
+  .hero::after {
+    content: " Слава!";
+  }
+  .cont::before {
+    content: "\00A7";
+  }
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+  
+  .bg-dark {
+    background-color: black;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  ul.categories li a {
+    color: indigo;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  ul.categories li a:hover {
+    background-color: lightgray;
+  }
+  
