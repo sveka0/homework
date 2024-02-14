@@ -75,4 +75,6 @@ ul.categories li a {
 ul.categories li a:hover {
   background-color: lightgray;
 }
-
+body{
+  background-color: hwb(292 87% 7%);
+}
