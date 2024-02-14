@@ -33,7 +33,7 @@ li:first-child {
     color: orange;
   }
   
-li:first-child span {
+li:first-child span:first-child {
     color: orange;
   }
   
