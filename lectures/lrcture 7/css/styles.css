@@ -1,0 +1,31 @@
+
+.negative { 
+    background: linear-gradient(to left,
+    #87ceeb -50%,
+    #468284 -10%,
+    #0000ff 0%,
+    #0000ff 100%,
+    #191970 150%);
+}
+.percents {
+    background: linear-gradient(to bottom,
+    #90ee90 2em,
+    #00ff00 4em,
+    #008000 8em,
+    #006400 16em,
+    #228b22 32em,
+    #228b22 64em,
+    #008000 128em
+    );
+}
+.radial {
+    background: radial-gradient(ellipse at center top,
+    orange, transparent),
+    radial-gradient(ellipse at center bottom,
+    red, transparent);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+
+ } 
+
+

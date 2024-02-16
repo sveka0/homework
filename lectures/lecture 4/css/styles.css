@@ -16,8 +16,11 @@ h1, h2, h3 {
 section p {
     color: red;
 }
-#h2 {
-    color: indigo;
+#heading{
+  color: indigo;
+}
+.text-h {
+     color: indigo; /* Вважаю, що так. */
 }
 p.first{
   color: green;
@@ -26,7 +29,10 @@ p.first{
 {
   color: green;
 }
-div + p {
+.first a:hover{
+  text-decoration: underline;
+}
+p + div  p {
   color: salmon;
 }
 .translucent-box {
