@@ -1,18 +1,21 @@
-
+.body{
+    padding: 10px;
+    margin: 0;
+}
 .negative { 
-    background: linear-gradient(to left,
-    #87ceeb -50%,
-    #468284 -10%,
+    background: linear-gradient(to left ,
+    #c2e2ef -50%,
+    #83a8d9 -10%,
     #0000ff 0%,
-    #0000ff 100%,
+    #0000ff -100%,
     #191970 150%);
 }
 .percents {
-    background: linear-gradient(to bottom,
-    #90ee90 2em,
+    background: linear-gradient(to bottom right,
+    #bbf6bb 2em,
     #00ff00 4em,
-    #008000 8em,
-    #006400 16em,
+    #3a943a 8em,
+    #043e04 16em,
     #228b22 32em,
     #228b22 64em,
     #008000 128em
@@ -23,7 +26,7 @@
     orange, transparent),
     radial-gradient(ellipse at center bottom,
     red, transparent);
-    background-size: 100% 50%;
+    background-size: 100%;
     background-repeat: no-repeat;
 
  } 
