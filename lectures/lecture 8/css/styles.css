@@ -1,0 +1,20 @@
+#example1{
+    background-clip: border-box;
+}
+#example2{
+    background-clip: padding-box;
+}
+#example3{
+    background-clip: content-box;
+}
+div {
+    border: 10px dotted black;
+    padding: 15px;
+    background: lightblue;
+}
+ span {
+    display: inline-block;
+    width: 33.3%;
+    overflow-wrap: break-word;
+
+} 
