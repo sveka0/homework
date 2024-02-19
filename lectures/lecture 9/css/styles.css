@@ -1,0 +1,30 @@
+.absolute-position{
+    position: absolute;
+    background: blueviolet;
+    top: 30px;
+    left: 30px;
+}
+.static-position{
+    position: static;
+    background: yellow;
+}
+.relative-position{
+    position: relative;
+    background: red;
+    top: 130px;
+    left: 130px;
+}
+p:nth-of-type(1){
+    position: absolute;
+    background: lime;
+    top: 10px;
+    right: 30px;
+}
+h1{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    background: white;
+}
