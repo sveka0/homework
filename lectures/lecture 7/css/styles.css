@@ -7,7 +7,7 @@
     #c2e2ef -50%,
     #83a8d9 -10%,
     #0000ff 0%,
-    #0000ff -100%,
+    #0000ff 100%,
     #191970 150%);
 }
 .percents {
@@ -30,5 +30,12 @@
     background-repeat: no-repeat;
 
  } 
-
+ .svg{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    }
+.svg-fig{
+    flex: 1;
+    }
 
