@@ -1,0 +1,26 @@
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    grid-column: span 3;
+    padding: 20px;
+    text-align: center;
+}
+.sidebar{
+    padding: 20px;
+}
+.main{
+    grid-column: span 2;
+    padding: 20px;
+}
+
+.footer{grid-column: span 3;
+    padding: 20px;
+    text-align: center;
+}

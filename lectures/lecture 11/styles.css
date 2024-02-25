@@ -1,0 +1,113 @@
+main{
+    display: grid;
+    grid-template-columns: 15% 60% 25%;
+}
+main{
+    display: grid;
+    grid-template-rows: 95px 1fr 70px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 90px 300px 1fr;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    justify-content: end;
+}
+/* main{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    justify-content: space-around;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    justify-content: space-between;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    justify-content: space-evenly;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    justify-content: stretch;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    justify-content: start;
+} */
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    column-gap: 50px;
+}
+/* main{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    row-gap: 50px;
+} */
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    margin: 0 25px;
+    column-gap: 25px;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    margin: 0 25px;
+    row-gap: 25px;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: start;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1em;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 1em;
+    row-gap: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
