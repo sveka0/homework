@@ -1,0 +1,16 @@
+body {
+    font-size: clamp(16px, calc(1.04vw + 1.04vh), 48px);
+  }
+  
+  @media (min-width: 768px) {
+    body {
+      font-size: clamp(16px, calc(2.08vw + 2.08vh), 20px);
+    }
+  }
+  
+  @media (min-width: 1920px) {
+    body {
+      font-size: clamp(16px, calc(2.5vw + 2.5vh), 36px);
+    }
+  }
+  
