@@ -23,8 +23,32 @@
 .footer {
     grid-area: footer;
 }
-@media (min-width: 786px) {
-    .column1, .column2 {
-      width: 100%; 
+
+
+
+.grid-item {
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  
+  @media (max-width: 786px) {
+    
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        "header"
+        "sidebar"
+        "main"
+        "footer";
+      grid-template-columns: 1fr;
+    }
+  
+    .header,
+    .sidebar,
+    .main,
+    .footer {
+      width: 100%;
     }
   }
+  
