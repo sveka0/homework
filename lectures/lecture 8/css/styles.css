@@ -12,9 +12,8 @@ div {
     padding: 15px;
     background: lightblue;
 }
- span {
+ h1 span {
     display: inline-block;
-    width: 33.3%;
-    overflow-wrap: break-word;
+    width: min-content;
 
 } 
