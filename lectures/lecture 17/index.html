@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	
+</head>
+<body>
+   
+  <script>
+
+  let x = 3
+  let y = 4
+
+  console.log(x == 3);           //true
+  console.log(x === "3");        //false
+  console.log(x != 5);           //true
+  console.log(x !== "5");        //true
+ // console.log(X !== 3);        //не виповнюється
+  console.log(y > 5);            //false
+  console.log(y >= 3);           //true
+  console.log(y < 5);            //true
+  console.log(y <= 2);           //false
+  console.log(1 == true);        //true
+  console.log(null == undefined);//true 
+  console.log(NaN == NaN);       //false
+
+
+  let x1 = 3;
+  let y1 = 4;
+  let z = 5;
+
+x1 ||= y1;
+x || (y = z);
+
+console.log(x1); //дорівнює 3
+
+x1 &&= y1;
+x1 && (y1 = z);  
+
+console.log(x1); //дорівнює 4
+
+x1 ??= y1;
+x1 ?? (y1 = z);
+
+console.log(x1); //дорівнює 4  
+
+
+'use strict';
+
+
+const targetNumber = 3;
+const userGuess = prompt('Guess the number (between 1 and 5):');
+
+if (userGuess === null) {
+  alert('Game canceled');
+} else {
+  const guessedNumber = parseInt(userGuess);
+
+  if (isNaN(guessedNumber)) {
+    alert('Invalid input. Please enter a number.');
+  } else {
+    if (guessedNumber === targetNumber) {
+      alert('Congratulations, You did it!');
+    } else if (guessedNumber > targetNumber) {
+      alert('The number is too high');
+    } else {
+      alert('The number is too low');
+    }
+  }
+}
+
+
+'use strict';
+
+const userDay = prompt('Enter the day of the week:');
+const lowerCaseUserDay = userDay.toLowerCase();
+
+switch (lowerCaseUserDay) {
+  case 'понеділок':
+  case 'monday':
+    alert('Start of the work week!');
+    break;
+  case 'п\'ятниця':
+  case 'friday':
+    alert('End of the work week!');
+    break;
+  default:
+    alert('A regular day');
+    break;
+}
+
+'use strict';
+
+
+const userDay1 = prompt('Enter the day of the week:');
+const lowerCaseUserDay1 = userDay1.toLowerCase();
+
+if (lowerCaseUserDay1 === 'понеділок' || lowerCaseUserDay1 === 'monday') {
+  alert('Start of the work week!');
+} else if (lowerCaseUserDay1 === 'п\'ятниця' || lowerCaseUserDay1 === 'friday') {
+  alert('End of the work week!');
+} else {
+  alert('A regular day');
+}
+
+'use strict';
+
+const userDay2 = prompt('Enter the day of the week:');
+
+const lowerCaseUserDay2 = userDay2.toLowerCase();
+
+switch (lowerCaseUserDay2.toLowerCase()) {
+    case 'понеділок':
+    case'monday':
+      alert('Start of the work week!');
+      break;
+    case 'п\'ятниця':
+    case 'friday':
+      alert('End of the work week!');
+      break;
+    default:
+      alert('A regular day');
+      break;
+  }
+
+  'use strict';
+
+const score = prompt('Enter the student\'s score:');
+
+const numericScore = parseFloat(score);
+
+let grade;
+if (numericScore < 50) {
+  grade = 'F';
+} else if (numericScore < 70) {
+  grade = 'D';
+} else if (numericScore < 80) {
+  grade = 'C';
+} else if (numericScore < 90) {
+  grade = 'B';
+} else {
+  grade = 'A';
+}
+
+alert(`Student's grade: ${grade}`);
+
+'use strict';
+
+const score1 = prompt('Enter the student\'s score:');
+
+const numericScore1 = parseFloat(score);
+
+const grade1 = numericScore1 < 50 ? 'F' :
+              numericScore1 < 70 ? 'D' :
+              numericScore1 < 80 ? 'C' :
+              numericScore1 < 90 ? 'B' : 'A';
+
+alert(`Student's grade: ${grade1}`);
+
+let firstName = null;
+let lastName = undefined;
+let username = (firstName || lastName) ?? "Guest";
+
+console.log(username); // "Guest"
+
+
+</script>
+
+</body>
+</html>
