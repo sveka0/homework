@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>Hello, javascript!</h1>
+    <script>
+             var message1 = "Hello";
+             var message2 = "JavaScript";
+          alert(message1 + " " + message2 + "!");
+
+
+          'use strict';
+      var message = 'hello'; 
+      message = 123456;  
+      console.log(message);        'use strict';
+
+
+var x = parseFloat(prompt("x:", 5));
+var y = parseFloat(prompt("y:", 5));
+x = parseFloat(x);
+y = parseFloat(y);
+var sum = x + y;
+console.log(sum); 'use strict';
+
+
+  'use strict';
+
+  let a1 = 9007199254740991;
+  let b1 = 9007199254740991n;
+  let result1 = BigInt(a1) + b1;
+  console.log(result1);
+  let result2 = BigInt(a1) + BigInt(b1);
+  console.log(result2); 
+
+  
+    'use strict';
+
+    let apples = "2";
+    let oranges = "3";
+    let result = Number(apples) + Number(oranges)
+    alert(result); 
+
+    'use strict';
+
+    let a = 1, b = 1;
+    let c = ++a; 
+    let d = b++; 
+   
+    console.log('a:', a); // дорівнює 2
+    console.log('b:', b); // дорівнює 2
+    console.log('c:', c); // дорівнює 2
+    console.log('d:', d); // дорівнює 1
+
+    'use strict';
+
+let a2 = 2;
+let x1 = 1 + (a2 *= 2);  
+console.log('a2:', a2); // дорівнює 4
+console.log('x1:', x1); // дорівнює 5
+
+
+    'use strict';
+
+  console.log("" + 1 + 0);    // дорівнює "10"
+  console.log("" - 1 + 0);    // дорівнює -1
+  console.log(true + false);  // дорівнює 1
+  console.log(6 / "3");       // дорівнює 2
+  console.log("2" * "3");     // дорівнює 6
+  console.log(4 + 5 + "px");  // дорівнює "9px"
+  console.log("$" + 4 + 5);   // доівнює "$45"
+  console.log("4" - 2);       // дорівнює 2
+  console.log("4px" - 2);     // дорівнює NaN
+  console.log("  -9  " + 5);  // доршвнює "-9  5"
+  console.log("  -9  " - 5);  // дорівнює -14
+  console.log(null + 1);      // дорівнює 1
+  console.log(undefined + 1); // дорівнює NaN
+  console.log(NaN + 1);       // дорівнює NaN
+
+  'use strict';
+
+let n = 2;
+n += 5; 
+n *= 2; 
+console.log(n); 
+
+  'use strict';
+
+  let n1 = "   123   ";
+  let n2 = "123z";
+  let n3 = true;
+  let n4 = false;
+
+  n1 = Number(n1.trim()); 
+  n2 = isNaN(Number(n2)) ? NaN : Number(n2);        
+  n3 = Number(n3);        
+  n4 = Number(n4);
+  console.log(n1, n2, n3, n4);
+
+
+</script>
+</body>
+</html>
