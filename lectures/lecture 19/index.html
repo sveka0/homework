@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let str1 = 'I\'m a string!';
+       let str2 = "I'm a string!";
+
+        console.log(str1 == str2); //true
+        console.log(str1 === str2);//true 
+      //Мають однакову довжину та однаковий текст.
+
+      // console.log(str1!= str2); //false
+      // console.log(str1!== str2);//false
+
+      let str5 = 'Hello world!';
+      let firstChar = str5.charAt(0);
+      console.log(firstChar); 
+
+      let str3 = 'Hello JavaScript!';
+      let lastChar = str3.charAt(6);
+      console.log(lastChar);
+
+      let str4 = 'Hello JavaScript';
+      let lastChar1 = str4[str4.length - 1];
+      console.log(lastChar1);
+
+       let str6 = 'Hello JavaScript';
+      let lastChar2 = str6.slice (- 1);
+      console.log(lastChar2);
+
+      function lastChar3(str) {
+        return str[str.length - 1];
+      }
+      console.log(lastChar3('Hello JavaScript'));
+
+      function lastChar4(str) {
+        return str.slice(-1);
+      }
+      console.log(lastChar4('Hello JavaScript'));
+
+      function lastChar5(str) {
+        return str.charAt(str.length - 1);
+      }
+      console.log(lastChar5('Hello JavaScript'));
+
+     // function lastChar6(str) {
+     //   return str.substring(str.length - 1);
+     // }
+     // console.log(lastChar6('Hello JavaScript'));
+
+let a = 'When candles are out,';
+let b = 'all cats are grey.';
+let concat = a.concat(' ', b);
+
+console.log(concat);
+
+let fact = 'Fifteen is the same as'
+let a1 =5;
+let b1 = 10;
+
+let result = fact + ' ' + (a1 + b1);
+
+console.log(result);
+
+function getFullName(firstName, lastName)  {
+    return firstName + ' ' + lastName
+}
+
+let firstName = 'Tom';
+let lastName = 'Cat';
+let fullName = getFullName(firstName, lastName);
+
+console.log(fullName);
+
+let firstName1 = "Tom";
+let lastName1 = "Cat";
+
+function getFullName1(firstName, lastName) {
+    return `${firstName} ${lastName}`;
+}
+
+function greeting() {
+    let fullName1 = getFullName1(firstName1, lastName1);
+    return 'Hello, ' + fullName1 + '!';
+}
+
+console.log(greeting());
+
+function getFullName2(firstName, lastName) {
+    return `${firstName} ${lastName}`;
+}
+
+
+function getFullName3(firstName, lastName) {
+    return `${firstName} ${lastName}`;
+}
+function greeting() {
+    let firstName3 = 'Tom'; 
+    let lastName3 = 'Cat'; 
+    return `<div><h1>Hello, ${getFullName3(firstName3, lastName3)}!</h1></div>`;
+}
+    let template = greeting();
+    console.log(template);
+
+let string1 = "The name of our game";
+console.log(string1.trim());
+console.log(string1);
+console.log(string1.trimLeft());
+
+const phoneNumber = '\t 555-123\n';
+console.log(phoneNumber.trim());
+console.log(phoneNumber.replace(/^\s+/, ''));
+
+let sentence = "Always look on the bright side of life.";
+
+console.log(sentence.includes('Look up')); //false
+console.log(sentence.includes('look on')); //true
+console.log(sentence.includes('look on', 8));//false
+
+let sentence1 = "Always look on the bright side of life.";
+
+console.log(sentence1.indexOf('l')); //1
+console.log(sentence1.indexOf('l', 3)); //7
+console.log(sentence1.indexOf('L'));//-1
+
+let sentence2 = "Always look on the bright side of life.";
+
+console.log(sentence2.substring(6)); 
+console.log(sentence2.substring(0, 6));
+console.log(sentence2.substring(7, 11));
+
+var RegExp = /^[a-z0-9_-]{8, 16}$/;
+
+let username1 = "foxi45";
+let username2 = "hihi-haha";
+let username3 = 'colo_bum576';
+let username4 = 'mahroomhead123456789';
+let username5 = 'Super777';
+
+console.log(RegExp.test(username1));
+
+console.log(RegExp.test(username2));
+
+console.log(RegExp.test(username3));
+
+console.log(RegExp.test(username4));
+
+console.log(RegExp.test(username5));
+
+
+var RegExp1 = /^[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+let email1 = "Afdff78878gmail.com";
+let email2 = "ryrrt@gmail.com"; 
+
+console.log(RegExp1.test(email1));
+
+console.log(RegExp1.test(email2));
+
+function truncateText(sentence) {
+    if (sentence.length > 50) {
+    return sentence.substring(0, 50) + "...";
+} else {
+    return sentence;
+}
+}
+let sentence3 = 'lorem ipsum dolor sit amet, consectetur adip. elit, sed diam nonumy. lorem ipsum dolor sit amet, consectetur adip. lorem ipsum dolor sit amet lorem. sed diam nonumy. lorem lorem ipsum dolor sit lorem amet. lorem ipsum dolor sit lorem';
+
+console.log(truncateText(sentence3));
+
+function truncateText(sentence) {
+    if (sentence.length > 50) {
+    return sentence.substr(0, 50) + "...";
+} else {
+    return sentence;
+}
+}
+let sentence4 = 'lorem ipsum dolor sit amet, consectetur adip. elit, sed diam nonumy. lorem ipsum dolor sit amet, consectetur adip. lorem ipsum dolor sit amet lorem. sed diam nonumy. lorem lorem ipsum dolor sit lorem amet. lorem ipsum dolor sit lorem';
+
+console.log(truncateText(sentence4));
+
+
+
+
+
+    
+
+
+
+
+      
+        
+
+
+
+
+    </script>
+</body>
+</html>
