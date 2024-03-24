@@ -254,7 +254,7 @@ ul.categories li a:hover {
     padding: 20px;
     text-align: center;
     display: flex;
-    
+
   }
 }
 
@@ -281,7 +281,17 @@ ul.categories li a:hover {
   }
 }
 
-
+   .btn {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
 
 
 

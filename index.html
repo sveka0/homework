@@ -33,9 +33,27 @@
             <a href="cart.html"><i class="fa-solid fa-user-check"></i></a>
             <a href="#!"><i class="fa-solid fa-bag-shopping"></i></a> 
         </nav>
-
+        
         </div>
-      </header>  
+      </header> 
+      <button class="btn">Нажми меня</button>
+        <form name="myForm" onsubmit="return validateForm()" method="post">
+          Имя: <input type="text" name="fname">
+          <input type="submit" value="Отправить">
+        </form>
+
+        <div id="demo">
+            <button onclick="loadData()">Загрузить данные</button>
+          </div> 
+
+          
+          <h2>Login</h2>
+          <form id="loginForm">
+              <input type="email" id="email" placeholder="Email" required><br>
+              <input type="password" id="password" placeholder="Password" required><br>
+              <button type="submit">Login</button>
+          </form>
+          <p>Don't have an account? <a href="register.html">Register</a></p>
 <hr>
 <footer>
 <div class="footer">
@@ -56,5 +74,6 @@
 </div> 
 
       </footer>
+      <script src="main.js"></script>
     </body>
 </html>
